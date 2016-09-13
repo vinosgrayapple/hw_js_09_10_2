@@ -2,14 +2,59 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>HW-JS-09-10</title>
+    <title>HW-JS-09-10</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
-	<link rel="stylesheet" href="bower_components/jcarousel/examples/basic/jcarousel.basic.css">
+    <link rel="stylesheet" href="bower_components/jcarousel/examples/basic/jcarousel.basic.css">
     <link rel="stylesheet" href="css/checkboxjQuery.css">
-	<link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/checkboxCSS.css">
+    <link rel="stylesheet" href="css/jquery.nav.css">
+    <link rel="stylesheet" href="css/common.css">
 </head>
 <body>
      <div class="wrapper">
+<!-- start Navigation -->
+     <h1>Navigation</h1>
+<nav>
+    <ul class="content clearfix">
+        <li><a href="#">Пункт 1</a></li>
+        <li><a href="#">Пункт 2</a></li>
+        <li class="dropdown">
+            <a href="#">Пункт 3</a>
+            <ul class="sub-menu">
+                <li><a href="#">Пункт 3.1</a></li>
+                <li><a href="#">Пункт 3.2</a></li>
+                <li><a href="#">Пункт3</a></li>
+                <li class="dropdown">
+                    <a href="#">Пункт 3.4</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Пункт 3.4.1</a></li>
+                        <li class="dropdown">
+                            <a href="#">Пункт 3.4.2</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Пункт 3.4.2.1</a></li>
+                                <li><a href="#">Пункт 3.4.2.2</a></li>
+                                <li><a href="#">Пункт 3.4.2.3</a></li>
+                                <li><a href="#">Пункт 3.4.2.4</a></li>
+                                <li><a href="#">Пункт 3.4.2.5</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Пункт 3.4.3</a></li>
+                        <li><a href="#">Пункт 3.4.4</a></li>
+                        <li><a href="#">Пункт 3.4.5</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Пункт 3.5</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Пункт 4</a></li>
+        <li><a href="#">Пункт 5</a></li>
+    </ul>
+</nav>
+
+
+
+<!-- end Navigation -->
+
 <!-- start jCarousel -->
             <h1>jCarousel</h1>
 
@@ -50,25 +95,33 @@
      <h1>ddSlick</h1>
     <div id="myDropdown"></div>
 <!-- end ddSlick  -->
-<!-- start CheckBox jQuery -->
+<!--start CheckBox jQuery -->
      <h1>CheckBox jQuery</h1>
+    <!--  <span class="niceCheck"></span> -->
     <form action="#">
-    <div><label for="ch1">label 1</label><input type="checkbox" class="niceCheck" id="ch1" tabindex="1" /> </div>
-    <div><label for="ch2">label 2</label><input type="checkbox" class="niceCheck" checked="checked" id="ch2" tabindex="2" value="2" /></div>
-    <div><label for="ch3">label 3</label><input type="checkbox" class="niceCheck" id="ch3" checked="checked" disabled="disabled" /></div>
-    </form>
-<!-- end CheckBox jQuery -->
+        <label for="ch1">Метка 1  </label> <span class="niceCheck"><input type="checkbox"  id="ch1" tabindex="1" /></span><br>
+        <label for="ch2">Метка 2  </label><span class="niceCheck"><input type="checkbox" class="niceCheck" checked="checked" id="ch2" tabindex="2" value="2" /></span><br>
+        <label for="ch3">Метка 3  </label><span class="niceCheck niceCheckDisabled"><input type="checkbox" class="niceCheck" id="ch3" checked="checked" disabled="disabled" /></span><br>
+    </form>    
+<!-- end CheckBox jQuery
 
 <!-- start CheckBox CSS -->
-    <input type="checkbox" id="test-check1">
-    <label for="test-check1">Checkbox CSS</label>
-    <br>
-    <a href="https://github.com/goit-fe/markup_fe2o/tree/master/js_09-10">https://github.com/goit-fe/markup_fe2o/tree/master/js_09-10</a>
+     <h1>CheckBox CSS</h1>
+     <h3>Custom checkbox</h3>
+        <div class="checkcss">
+            <input type="checkbox" id="test-check1" />
+            <label for="test-check1">Чекбокс 1:</label> 
+        </div>
+        <div class="checkcss">
+            <input type="checkbox" id="test-check2" />
+            <label for="test-check2">Чекбокс 2:</label> 
+        </div> 
 <!-- end CheckBox CSS -->
 
 
 
 
+    <a href="https://github.com/goit-fe/markup_fe2o/tree/master/js_09-10">https://github.com/goit-fe/markup_fe2o/tree/master/js_09-10</a> 
      </div>
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/jcarousel/dist/jquery.jcarousel.min.js"></script>
@@ -76,6 +129,7 @@
     <script src="bower_components/ddslick/jquery.ddslick.min.js"></script>
     <script src="bower_components/ddslick/ddslick.basic.js"></script>
     <script src="js/checkboxjQuery.js"></script>
+    <script src="js/jquery.nav.js"></script>
 	<script src="js/common.js"></script>
 </body>
 </html>

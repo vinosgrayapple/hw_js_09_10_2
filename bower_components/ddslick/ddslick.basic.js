@@ -35,7 +35,7 @@ $('#myDropdown').ddslick({
     data:ddData,
     width:300,
     selectText: "Select your preferred social network",
-    imagePosition:"right",
+    imagePosition:"left",
     onSelected: function(selectedData){
         //callback function: do something with selectedData;
     }   

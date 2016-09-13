@@ -1,5 +1,5 @@
 form {
-	margin: 50px;
+ 	margin: 20px 0;
 	background: #99CCFF;
 	padding: 10px;
 }
@@ -11,7 +11,7 @@ form {
 	height: 17px;
 	display: inline-block;
 	cursor: pointer;
-	background: url(../img/checkbox.png);
+	background: url(../img/checkbox.png) no-repeat;
 	overflow: hidden;
 }
 .niceChecked {
