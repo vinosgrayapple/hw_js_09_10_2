@@ -79,6 +79,8 @@ nav li li:last-child a {
 /* hide sub menu links */
 ul.sub-menu {
     display:none;
+    background-color:rgb(0,75,75);
+    
 }
 
 /* show arrows for dropdowns */
