@@ -53,4 +53,6 @@ pre {
     margin: auto;
 }
 
-
+.wrapper > h1 {
+  marginж 50px;
+}

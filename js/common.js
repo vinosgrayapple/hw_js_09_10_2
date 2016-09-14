@@ -1,10 +1,10 @@
 $(function() {
-	$("form").on("mouseenter",
-  function(){
-	$(this).animate({
-	backgroundColor:"#03C"
-     }, 800 );
-  });
+
+	$("form").hover(function() {
+		$(this).animate({color:"#002200"},500);
+	},function() {
+		$(this).animate({color:"#2E8B57"},500);
+	});
 
 
 });

@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="css/checkboxjQuery.css">
     <link rel="stylesheet" href="css/checkboxCSS.css">
     <link rel="stylesheet" href="css/jquery.nav.css">
+    <link rel="stylesheet" href="css/javascript.nav.css">
     <link rel="stylesheet" href="css/common.css">
 </head>
 <body>
      <div class="wrapper">
-<!-- start Navigation -->
-     <h1>Navigation</h1>
-<nav>
+<!-- start Navigation jQuery-->
+     <h1>Navigation  jQuery</h1>
+<nav id="nav__jQuery">
     <ul class="content clearfix">
         <li><a href="#">Пункт 1</a></li>
         <li><a href="#">Пункт 2</a></li>
@@ -53,7 +54,52 @@
 
 
 
-<!-- end Navigation -->
+<!-- end Navigation jQuery-->
+
+<!-- start Navigation JavaScript-->
+     <h1>Navigation  JavaScript</h1>
+<nav id="nav__JavaScritp">
+    <ul class="content clearfix">
+        <li><a href="#">Item 1</a></li>
+        <li><a href="#">Item 2</a></li>
+        <li class="dropdown2">
+            <a href="#">Item 3</a>
+            <ul class="sub-menu2">
+                <li><a href="#">Item 3.1</a></li>
+                <li><a href="#">Item 3.2</a></li>
+                <li><a href="#">Item3</a></li>
+                <li class="dropdown2">
+                    <a href="#">Item 3.4</a>
+                    <ul class="sub-menu2">
+                        <li><a href="#">Item 3.4.1</a></li>
+                        <li class="dropdown2">
+                            <a href="#">Item 3.4.2</a>
+                            <ul class="sub-menu2">
+                                <li><a href="#">Item 3.4.2.1</a></li>
+                                <li><a href="#">Item 3.4.2.2</a></li>
+                                <li><a href="#">Item 3.4.2.3</a></li>
+                                <li><a href="#">Item 3.4.2.4</a></li>
+                                <li><a href="#">Item 3.4.2.5</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Item 3.4.3</a></li>
+                        <li><a href="#">Item 3.4.4</a></li>
+                        <li><a href="#">Item 3.4.5</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Item 3.5</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Item 4</a></li>
+        <li><a href="#">Item 5</a></li>
+    </ul>
+</nav>
+
+
+
+<!-- end Navigation JavaScript-->
+
+
 
 <!-- start jCarousel -->
             <h1>jCarousel</h1>
@@ -103,7 +149,7 @@
         <label for="ch2">Метка 2  </label><span class="niceCheck"><input type="checkbox" class="niceCheck" checked="checked" id="ch2" tabindex="2" value="2" /></span><br>
         <label for="ch3">Метка 3  </label><span class="niceCheck niceCheckDisabled"><input type="checkbox" class="niceCheck" id="ch3" checked="checked" disabled="disabled" /></span><br>
     </form>    
-<!-- end CheckBox jQuery
+<!-- end CheckBox jQuery-->
 
 <!-- start CheckBox CSS -->
      <h1>CheckBox CSS</h1>
@@ -121,16 +167,19 @@
 
 
 
-    <a href="https://github.com/goit-fe/markup_fe2o/tree/master/js_09-10">https://github.com/goit-fe/markup_fe2o/tree/master/js_09-10</a> 
+    <a href="https://github.com/goit-fe/markup_fe2o/tree/master/js_09-10" target="_blank">https://github.com/goit-fe/markup_fe2o/tree/master/js_09-10</a> 
      </div>
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jquery-migrate/jquery-migrate.min.js"></script>
     <script src="bower_components/jcarousel/dist/jquery.jcarousel.min.js"></script>
     <script src="bower_components/jcarousel/examples/basic/jcarousel.basic.js"></script>
     <script src="bower_components/ddslick/jquery.ddslick.min.js"></script>
     <script src="bower_components/ddslick/ddslick.basic.js"></script>
     <script src="js/checkboxjQuery.js"></script>
+    <!-- <script src="js/jquery.color.js"></script> -->
+    <script src="bower_components/jquery-color-animation/jquery.animate-colors-min.js"></script>
     <script src="js/jquery.nav.js"></script>
-    <script src="js/jquery.color.js"></script>
+    <script src="js/javascript.nav.js"></script>
 	<script src="js/common.js"></script>
 </body>
 </html>
