@@ -91,7 +91,7 @@ ul.sub-menu {
 }
 
 #nav__jQuery li li.dropdown > a {
-    background-image:url(http://i.imgur.com/Y1GSlki.png);
+    background-image:url('http://i.imgur.com/Y1GSlki.png');
     background-position:right 16px;
     background-repeat:no-repeat;
 }

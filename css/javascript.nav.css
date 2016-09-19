@@ -85,7 +85,7 @@ ul.sub-menu2 {
 }
 
 #nav__JavaScritp li li.dropdown2 > a {
-    background-image:url(http://i.imgur.com/Y1GSlki.png);
+    background-image:url('http://i.imgur.com/Y1GSlki.png');
     background-position:right 16px;
     background-repeat:no-repeat;
 }
