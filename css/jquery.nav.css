@@ -85,13 +85,13 @@ ul.sub-menu {
 
 /* show arrows for dropdowns */
 #nav__jQuery li.dropdown > a {
-    background-image:url('../img/arrow-down.png');
+    background-image:url(http://i.imgur.com/d1HAYGM.png);
     background-position:right 20px;
     background-repeat:no-repeat;
 }
 
 #nav__jQuery li li.dropdown > a {
-    background-image:url('../img/arrow-right.png');
+    background-image:url(http://i.imgur.com/Y1GSlki.png);
     background-position:right 16px;
     background-repeat:no-repeat;
 }

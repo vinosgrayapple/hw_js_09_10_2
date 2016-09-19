@@ -79,13 +79,13 @@ ul.sub-menu2 {
 
 /* show arrows for dropdown2s */
 #nav__JavaScritp li.dropdown2 > a {
-    background-image:url('../img/arrow-down.png');
+    background-image:url(http://i.imgur.com/d1HAYGM.png);
     background-position:right 20px;
     background-repeat:no-repeat;
 }
 
 #nav__JavaScritp li li.dropdown2 > a {
-    background-image:url('../img/arrow-right.png');
+    background-image:url(http://i.imgur.com/Y1GSlki.png);
     background-position:right 16px;
     background-repeat:no-repeat;
 }

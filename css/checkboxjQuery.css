@@ -12,7 +12,7 @@ form {
 	height: 17px;
 	display: inline-block;
 	cursor: pointer;
-	background: url(../img/checkbox.png) no-repeat;
+	background: url(http://i.imgur.com/F2vnelV.png) no-repeat;
 	overflow: hidden;
 }
 .niceChecked {
@@ -26,5 +26,5 @@ div {
 	margin-bottom: 10px;
 }
 .niceCheckDisabled {
-	background-image: url(../img/checkbox-disabled.png);
+	background-image: url(http://i.imgur.com/7yqGXH2.png);
 }
