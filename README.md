@@ -1,4 +1,4 @@
-<center># hw_js_09_10_2</center>
+# <center>hw_js_09_10_2</center>
 <center>[Смотреть по ссылке] (https://vinosgrayapple.github.io/hw_js_09_10_2/)</center>
 ======================================
 
