@@ -1,34 +1,3 @@
-/*form {
- 	margin: 20px 0;
-	background: #7FFFD4;
-	padding: 10px;
-	color: #2E8B57;
-}
-
-.niceCheck {
-	width: 17px;
-	height: 17px;
-	display: inline-block;
-	cursor: pointer;
-	background: url(http://i.imgur.com/F2vnelV.png) no-repeat;
-	overflow: hidden;
-}
-.niceChecked {
-	background-position: 0 -17px;
-}
-.niceCheck input {
-	margin-left: -100px;
-}
-
-div {
-	margin-bottom: 10px;
-}
-.niceCheckDisabled {
-	background-image: url(http://i.imgur.com/7yqGXH2.png);
-}
-*/
-
-
 form {
 	margin: 50px;
 	background: #99CCFF;
@@ -48,9 +17,10 @@ form {
 .niceCheck input {
 	margin-left: -100px;
 }
-div {
+form div {
 	margin-bottom: 10px;
 }
 .niceCheckDisabled {
 	background-image: url(http://i.imgur.com/7yqGXH2.png);
 }
+	
