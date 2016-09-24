@@ -1,0 +1,91 @@
+#nav__JavaScritp {
+	background-color:lightseagreen;
+	padding:10px 0;
+    z-index: 8;
+}
+#nav__JavaScritp ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+        z-index: 8;
+
+}
+#nav__JavaScritp ul li {
+    display:inline-block;
+    position:relative;
+        z-index: 8;
+
+}
+
+/* sub #nav__JavaScritpigation */
+#nav__JavaScritp li ul {    
+    background-color:lightseagreen;
+    position:absolute;
+    left:0;
+    top:40px; /* make this equal to the line-height of the links (specified below) */
+    width:200px;
+        z-index: 8;
+
+}
+#nav__JavaScritp li li {
+    position:relative;
+    margin:0;
+    display:block;
+        z-index: 8;
+
+}
+#nav__JavaScritp li li ul {
+    position:absolute;
+    top:0;
+    left:200px; /* make this equal to the width of the sub #nav__JavaScritp above */
+    margin:0;
+    z-index: 8;
+
+}
+
+/* style all links */
+#nav__JavaScritp a {
+    line-height:40px;
+    padding:0 12px;
+    margin:0 12px;
+}
+#nav__JavaScritp a {
+    color:#fff;
+    text-decoration:none;
+    display:block;
+}
+#nav__JavaScritp a:hover,
+#nav__JavaScritp a:focus,
+#nav__JavaScritp a:active {
+    color:#2F4F4F;
+}
+
+/* style sub level links */
+#nav__JavaScritp li li a {
+    border-bottom:solid 1px #19918b;
+    margin:0 10px;
+    padding:0;
+}
+#nav__JavaScritp li li:last-child a {
+    border-bottom:none;
+}
+
+/* hide sub menu links */
+ul.sub-menu2 {
+    display:none;
+    // background-color:rgb(0,75,75);
+    
+}
+
+/* show arrows for dropdown2s */
+#nav__JavaScritp li.dropdown2 > a {
+    background-image:url(http://i.imgur.com/d1HAYGM.png);
+    background-position:right 20px;
+    background-repeat:no-repeat;
+}
+
+#nav__JavaScritp li li.dropdown2 > a {
+    background-image:url('http://i.imgur.com/Y1GSlki.png');
+    background-position:right 16px;
+    background-repeat:no-repeat;
+}
